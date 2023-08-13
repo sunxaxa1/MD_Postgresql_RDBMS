@@ -111,16 +111,3 @@ tail -n 100 /var/log/postgresql/postgresql-10-main.log
 psql -c "select pg_wal_replay_resume();"
 
 
-
-
-
-
-
-
-
-
-
-
-# Other
-
-# select * from current_timestamp;
